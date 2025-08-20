@@ -1,4 +1,4 @@
-// عداد متحرك
+// عداد متحرك للنسبة
 function animateValue(id, start, end, duration) {
   const obj = document.getElementById(id);
   let startTimestamp = null;
@@ -13,14 +13,14 @@ function animateValue(id, start, end, duration) {
   window.requestAnimationFrame(step);
 }
 
-// دالة لحساب نسبة ثابتة حسب الاسمين
+// حساب نسبة ثابتة حسب الأسماء
 function calculateLovePercentage(name1, name2) {
   let str = (name1 + name2).toLowerCase().replace(/\s+/g, "");
   let sum = 0;
   for (let i = 0; i < str.length; i++) {
     sum += str.charCodeAt(i);
   }
-  return (sum % 100) + 1; // نسبة بين 1 و 100 ثابتة لنفس الاسمين
+  return (sum % 100) + 1; // نسبة بين 1 و 100
 }
 
 document.getElementById("calculateButton").addEventListener("click", function () {
