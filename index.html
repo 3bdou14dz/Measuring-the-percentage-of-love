@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>حاسبة نسبة الحب ❤️</title>
+
+  <!-- أيقونات -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google AdSense (استبدل ca-pub والـ slot بالقيم من حسابك) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="background"></div>
+
+  <div class="container" id="mainContainer">
+    <div class="header">
+      <h1>حاسبة نسبة الحب ❤️</h1>
+      <p class="subtitle">اكتشف قوة التوافق بينك وبين شريك حياتك</p>
+    </div>
+
+    <div class="input-group">
+      <div class="input-with-icon">
+        <i class="fas fa-venus female-icon"></i>
+        <input type="text" id="femaleName" placeholder="اسم الفتاة">
+      </div>
+      <div class="input-with-icon">
+        <i class="fas fa-mars male-icon"></i>
+        <input type="text" id="maleName" placeholder="اسم الشاب">
+      </div>
+    </div>
+
+    <button id="calculateButton">✨ احسب الآن ✨</button>
+
+    <!-- النتيجة -->
+    <div class="result" id="result">
+      <div class="couple-names">
+        <span id="displayFemaleName">سارة</span>
+        <span class="heart-icon">❤</span>
+        <span id="displayMaleName">أحمد</span>
+      </div>
+
+      <!-- نسبة داخل دائرة متوهجة -->
+      <div class="circle-percentage">
+        <span id="percentage">0%</span>
+      </div>
+
+      <div class="relationship-status" id="relationshipStatus"></div>
+      <div class="relationship-desc" id="relationshipDesc"></div>
+      <div class="meter"><div class="meter-fill" id="meterFill"></div></div>
+      <div class="message" id="message"></div>
+    </div>
+
+    <!-- إعلان -->
+    <div class="ad-container float-up-down">
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center;"
+           data-ad-client="ca-pub-XXXXXXXXXXXX"
+           data-ad-slot="YYYYYYYYYY"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <div class="footer">
+      <p>شارك النتيجة مع من تحب 💖</p>
+      <p><a href="privacy.html">سياسة الخصوصية</a> | <a href="contact.html">اتصل بنا</a></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
